@@ -19,7 +19,7 @@
 	background: #f0f0f0;
 	color: #484848;
 	font-size: 18px;
-	-webkit-appearance: none; /* for box shadows to show on iOS */
+	-webkit-appearance: none;
 }
 
 .input__field:focus {
@@ -33,7 +33,7 @@
 	width: 40%;
 	font-weight: bold;
 	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -146,57 +146,54 @@
 }
 
 /**
- * Checkbox Five
+ * Checkbox
  */
-.checkboxFive {
-	width: 25px;
-	margin: 20px 100px;
-	position: relative;
-	margin-left: 25px;
-}
+ .checkboxFive {
+ 	width: 25px;
+ 	margin: 20px 100px;
+ 	position: relative;
+ 	margin-left: 25px;
+ }
 
-.checkboxFive label {
-	cursor: pointer;
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	top: 0;
-  	left: 0;
-	background: #eee;
-	border:1px solid #ddd;
-}
+ .checkboxFive label {
+ 	cursor: pointer;
+ 	position: absolute;
+ 	width: 25px;
+ 	height: 25px;
+ 	top: 0;
+ 	left: 0;
+ 	background: #eee;
+ 	border:1px solid #ddd;
+ }
 
-.checkboxFive label:after {
-	opacity: 0.2;
-	content: '';
-	position: absolute;
-	width: 9px;
-	height: 5px;
-	background: transparent;
-	top: 6px;
-	left: 7px;
-	border: 3px solid #1EA69A;
-	border-top: none;
-	border-right: none;
+ .checkboxFive label:after {
+ 	opacity: 0.2;
+ 	content: '';
+ 	position: absolute;
+ 	width: 9px;
+ 	height: 5px;
+ 	background: transparent;
+ 	top: 6px;
+ 	left: 7px;
+ 	border: 3px solid #1EA69A;
+ 	border-top: none;
+ 	border-right: none;
 
-	transform: rotate(-45deg);
-}
+ 	transform: rotate(-45deg);
+ }
 
-.checkboxFive label:hover::after {
-	opacity: 0.5;
-}
+ .checkboxFive label:hover::after {
+ 	opacity: 0.5;
+ }
 
-/**
- * Create the checkbox state for the tick
- */
-.checkboxFive input[type=checkbox]:checked + label:after {
-	opacity: 1;
-}
+ .checkboxFive input[type=checkbox]:checked + label:after {
+ 	opacity: 1;
+ }
 
-.priorityGuest {
-	text-align: left;
-	font-weight: 500;
-	width: 150px;
-	padding-top: 20px;
-	color: #7D7D7D;
-}
+ .priorityGuest {
+ 	text-align: left;
+ 	font-weight: 500;
+ 	width: 150px;
+ 	padding-top: 20px;
+ 	color: #7D7D7D;
+ }
