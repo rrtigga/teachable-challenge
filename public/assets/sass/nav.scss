@@ -34,6 +34,7 @@ a {
 .navbar-component {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  font-weight: 500;
 }
 .navbar-component > .navbar {
   -webkit-box-pack: justify;
@@ -162,5 +163,5 @@ a {
 .navbar > .list > .item.-link:hover,
 .navbar > .list > .item.-link:focus {
   color: #333;
-  border-bottom-color: #F6A623;
+  border-bottom-color: #1EA69A;
 }

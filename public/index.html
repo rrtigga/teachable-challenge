@@ -18,10 +18,10 @@
       <!-- Class `area` is a container -->
       <div class="navbar area">
         <!-- Logo -->
-        <a href="index.html" class="brand">Teachable</a>
+        <a href="index.html" class="brand green">Teachable</a>
         <!-- List of links -->
         <nav role="navigation" id="navigation" class="list">
-          <a href="index.html" class="item -link">Guest Manager</a>
+          <a href="index.html" class="item -link -active">Guest Manager</a>
           <a href="#" class="item -link">Help</a>
         </nav>
         <!-- Button to toggle the display menu  -->
@@ -67,7 +67,17 @@
 
     <div id="attendees" class="container-fluid mTop">
       <h3>Attendees</h3>
-      <div class="list">
+      <div class="dropdown floatRight">
+        <button class="dropbtn">Sort By</button>
+        <div class="dropdown-content">
+          <a href="#">Recently Added</a>
+          <a href="#">Priority</a>
+          <a href="#">Not Priority</a>
+          <a href="#">Name Order</a>
+          <a href="#">Email Order</a>
+        </div>
+      </div>
+      <div class="attendeeList">
         <p>There are no attendees</p>
       </div>
     </div>

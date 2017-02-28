@@ -27,6 +27,12 @@ main {
   margin-left: 15px;
   margin-right: 15px; }
 
+.floatRight {
+  float: right; }
+
+.green {
+  color: #1EA69A !important; }
+
 main .sidebar-left form {
   margin-bottom: 20px;
   padding: 30px;
@@ -51,25 +57,61 @@ main .main-content .registrants {
   background: #1EA69A;
   border-radius: 3px;
   color: white;
-  border-radius: 18px;
   padding: 0 100px;
   display: table; }
 
 #add {
   background-color: white;
+  border: 1px solid #C4C4C4;
   padding: 25px; }
 
 #attendees {
   background-color: white;
-  padding: 20px; }
+  border: 1px solid #C4C4C4;
+  padding: 25px; }
 
-.list {
-  border: 1px dotted #C4C4C4;
+.attendeeList {
+  border: 2px dotted #C4C4C4;
   border-radius: 3px;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
   color: #7D7D7D;
   font-weight: 500; }
+
+.dropbtn {
+  background-color: #1EA69A;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.dropdown:hover .dropbtn {
+  background-color: #1EA69A; }
 
 /*Nav*/
 a {
@@ -100,7 +142,8 @@ a {
     width: 1140px; } }
 .navbar-component {
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12); }
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  font-weight: 500; }
 
 .navbar-component > .navbar {
   -webkit-box-pack: justify;
@@ -223,7 +266,7 @@ a {
 .navbar > .list > .item.-link:hover,
 .navbar > .list > .item.-link:focus {
   color: #333;
-  border-bottom-color: #F6A623; }
+  border-bottom-color: #1EA69A; }
 
 .column {
   flex-basis: 100%; }
@@ -317,7 +360,7 @@ a {
   overflow: hidden;
   padding: 0;
   width: 100%;
-  color: #dadada;
+  color: #7D7D7D;
   text-align: left; }
 
 .input__label--isao::before {
@@ -383,7 +426,8 @@ a {
 .checkboxFive {
   width: 25px;
   margin: 20px 100px;
-  position: relative; }
+  position: relative;
+  margin-left: 25px; }
 
 .checkboxFive label {
   cursor: pointer;
@@ -404,7 +448,7 @@ a {
   background: transparent;
   top: 6px;
   left: 7px;
-  border: 3px solid #333;
+  border: 3px solid #1EA69A;
   border-top: none;
   border-right: none;
   transform: rotate(-45deg); }
@@ -420,6 +464,7 @@ a {
 
 .priorityGuest {
   text-align: left;
-  font-weight: bold;
+  font-weight: 500;
   width: 150px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  color: #7D7D7D; }
